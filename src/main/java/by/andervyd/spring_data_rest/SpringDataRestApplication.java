@@ -8,6 +8,13 @@ public class SpringDataRestApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringDataRestApplication.class, args);
-    }
 
+/* Spring Boot Actuator (endpoints)
+        /actuator/health
+        /actuator/info
+        /actuator/beans
+        /actuator/mappings
+*/
+
+    }
 }
